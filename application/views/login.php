@@ -12,6 +12,17 @@
         <script src="<?php echo base_url('public/js/jquery.min.js') ?>"></script>
         <script src="<?php echo base_url('public/js/bootstrap.js') ?>"></script>
 
+
+
+
+        <!--meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"-->
+          <!-- Bootstrap 3.3.7 -->
+          <link href="<?php echo base_url('public/Ionicons/css/ionicons.min.css') ?>" rel="stylesheet" media="screen">
+          
+
+
+
+
         <script>
             $(document).ready(function (e) {
             $("#form-login").on('submit',(function(e) {
@@ -65,9 +76,11 @@
 
                          <div class="col-lg-12 col-md-12 col-sm-12">
                              <input type="email" name="txtEmail" class="form-control" id="inputEmail3" placeholder="correo electrónico" required="">
+                             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
                          </div>
                          <div class="col-lg-12  col-md-12 col-sm-12">
                              <input type="password" name="txtPassword" class="form-control" id="inputPassword3" placeholder="Tú contraseña" required="">
+                             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                          </div>
                          <div class="col-lg-12  col-md-12 col-sm-12">
                              <button type="submit" class="btn submitButton">Ingresar</button>
