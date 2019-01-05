@@ -32,7 +32,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <a class="navbar-brand" href="#">DYNAMIC DROPDWON</a>
     </div>
 
-    
+    <¿--jajaja->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li ><a href="#">Link <span class="sr-only">(current)</span></a></li>
