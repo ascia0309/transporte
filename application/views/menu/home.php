@@ -78,15 +78,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
                 <span class="sr-only">Toggle navigation</span>
               </button>
-              <a class="navbar-brand" href="#">Inicio</a>
-              <a class="navbar-brand" href="#">Blog</a>
-              <a class="navbar-brand" href="#">Requisitos Licencias</a>
+              
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-01">
               <ul class="nav navbar-nav navbar-left">
-                <li><a href="#fakelink">Todas<span class="navbar-unread">1</span></a></li>
+                <li><a href="#fakelink">INICIO<span class="navbar-unread">1</span></a></li>
+                <li><a href="#fakelink">INFORMACIÓN<span class="navbar-unread">2</span></a></li>
+                <li><a href="#fakelink">INSCRIPCIÓN<span class="navbar-unread">3</span></a></li>
+                <li><a href="#fakelink">PAGO AL BANCO<span class="navbar-unread">4</span></a></li>
+                <li><a href="#fakelink">PROGRAMAR CITA<span class="navbar-unread">5</span></a></li>
+                <li><a href="#fakelink">CONSTANCIA<span class="navbar-unread">5</span></a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorias <b class="caret"></b></a>
+                  <!--a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorias <b class="caret"></b></a>
                   <span class="dropdown-arrow"></span>
                   <ul class="dropdown-menu">
                     <li><a href="#">Action</a></li>
@@ -95,9 +98,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li class="divider"></li>
                     <li><a href="#">Separated link</a></li>
                   </ul>
-                </li>
-                <li><a href="#fakelink">Sobre mi Web</a></li>
-               </ul>
+                
+               </ul-->
                <form class="navbar-form navbar-right" action="#" role="search">
                 <div class="form-group">
                   <div class="input-group">
