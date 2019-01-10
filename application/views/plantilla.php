@@ -21,7 +21,12 @@
         <script src="<?php echo base_url('public/js/jquery.dataTables.min.js') ?>"></script>
 				<script src="<?php echo base_url('public/js/jquery.dataTables.bootstrap.js') ?>"></script>
 				<script src="<?php echo base_url('public/js/jquery-3.3.1.slim.min.js') ?>"></script>
-				
+
+
+         <link href="<?php echo base_url('public/dist/css/AdminLTE.min.css') ?>" rel="stylesheet" media="screen">
+        
+        <link href="<?php echo base_url('public/dist/css/skins/_all-skins.min.css') ?>" rel="stylesheet" media="screen">
+        
 
 
         <script type="text/javascript">

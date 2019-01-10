@@ -22,6 +22,7 @@ class Menu extends CI_Controller
 		//$data['menues'] = $this->Model_Menu->menusubPerfil($email, $contrasenia);
 		$data['submenubo'] = $this->Model_Menu->submenu();
 		$data['contenido'] = "menu/home"; //enviar a plantilla la vista index
+		//$this->load->view('menu/menues');
 		$this->load->view("plantilla", $data);
 
 		
