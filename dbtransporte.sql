@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 06-12-2018 a las 23:06:34
--- Versión del servidor: 10.1.36-MariaDB
--- Versión de PHP: 7.2.11
+-- Tiempo de generación: 12-01-2019 a las 00:10:54
+-- Versión del servidor: 10.1.37-MariaDB
+-- Versión de PHP: 7.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -122,7 +122,10 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`usuid`, `perid`, `usudni`, `usuemail`, `usucontrasenia`, `usunombres`, `usuapellidos`, `usucelular`, `usuestado`) VALUES
 (1, 1, '46701111', 'admin@seguridad.com', 'admin', 'Admin', 'Adminini', '993111119', 1),
-(7, 1, '11112222', 'hola@hotmail.com', 'hola', 'Dan', 'Jin', '923456781', 1);
+(7, 1, '11112222', 'hola@hotmail.com', 'hola', 'Dan', 'Jin', '923456781', 1),
+(8, 3, '89234312', 'holamundo@gmail.com', 'holamundo', 'Mario', 'Lujan E', '987767611', 1),
+(9, 1, '71222192', 'mariadb@gmail.com', 'mariadb', 'Maria ', 'Davalos Barbaran', '929381288', 1),
+(10, 2, '71288912', 'koala@gmail.com', 'koala', 'Koala', 'J. O.', '981712821', 1);
 
 --
 -- Índices para tablas volcadas
@@ -182,7 +185,7 @@ ALTER TABLE `perfil`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `usuid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `usuid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- Restricciones para tablas volcadas
