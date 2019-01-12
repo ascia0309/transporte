@@ -75,6 +75,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <li><a href="#fakelink">PROGRAMAR CITA<span class="navbar-unread">5</span></a></li>
                 <li><a href="#fakelink">CONSTANCIA<span class="navbar-unread">5</span></a></li>
                 <li class="dropdown">
+
+                  
                   <!--a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorias <b class="caret"></b></a>
                   <span class="dropdown-arrow"></span>
                   <ul class="dropdown-menu">
