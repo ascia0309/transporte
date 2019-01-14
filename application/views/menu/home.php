@@ -68,7 +68,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-01">
               <ul class="nav navbar-nav navbar-left">
-                <li><a href="<?php echo base_url(); ?>menu">INICIO<span class="navbar-unread"></span></a></li>
+                <li><a href="<?php echo base_url(); ?>menu.INICIO<span class="navbar-unread"></span></a></li>
                 <li><a href="#fakelink">INFORMACIÓN<span class="navbar-unread"></span></a></li>
                 <li><a href="#fakelink">INSCRIPCIÓN<span class="navbar-unread"></span></a></li>
                 <li><a href="#fakelink">PAGO AL BANCO<span class="navbar-unread"></span></a></li>
