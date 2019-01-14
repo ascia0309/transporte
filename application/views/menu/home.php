@@ -70,9 +70,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
               <ul class="nav navbar-nav navbar-left">
                 <li><a href="<?php echo base_url(); ?>menu">INICIO<span class="navbar-unread"></span></a></li>
                 <li><a href="#fakelink">INFORMACIÓN<span class="navbar-unread"></span></a></li>
-                <li><a href="<?php echo base_url(); ?>inscripcion">INSCRIPCIÓN<span class="navbar-unread"></span></a></li>
-                <li><a href="#fakelink">PAGO AL BANCO<span class="navbar-unread"></span></a></li>
-                <li><a href="#fakelink">PROGRAMAR EXAMEN<span class="navbar-unread"></span></a></li>
+                <li><a href="<?php echo base_url(); ?>usuario">INSCRIPCIÓN<span class="navbar-unread"></span></a></li>
+              
                 <li class="dropdown">
 
                   
