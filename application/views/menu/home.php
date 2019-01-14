@@ -7,7 +7,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-          <a class="navbar-brand" href="#">SISTEMA WEB CON APLICATIVO MOVIL PARA EL PROCESO DE INSCRPCION DE BREVETES</a>
+          <a class="navbar-brand" href="#">SISTEMA WEB CON APLICATIVO MOVIL PARA EL PROCESO DE INSCRIPCIóN DE BREVETES</a>
       </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
