@@ -58,16 +58,7 @@ class Model_Login extends CI_Model
             return FALSE;
         }
     }
-    public function accessMenPro($con){
-        $perid = $this->session->userdata('perid');
-        $query = $this->db->query("SELECT M.menid, M.mencontrolador, M.menaccion, P.perid,P.pernombre
-                            FROM menu M
-                            INNER JOIN mep MP ON M.menid = MP.menid
-                            INNER JOIN perfil P ON P.perid = MP.perid
-                            WHERE P.perid = '$perid';
-                            WHERE M.mencontrolador = '$controller' AND P.pro_id = '$pro_id';");
-        return $query->result();
-	}
-
     
+
+
 }
