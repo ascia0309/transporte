@@ -9,24 +9,8 @@ class Model_Login extends CI_Model
     	$this->load->database();
   	}
 
-  	public function existeUsuario($email,$contrasenia)
-  	{
-		$this->db->select('*, 
-							menu.menid as menu_id, 
-							perfil.pernombre as perfil_nombre', 'left');
-		$this->db->from('mep');
-		$this->db->join('menu', 'menu.menid=mep.menid');
-		$this->db->join('perfil', 'mep.perid=perfil.perid');
-		$this->db->join('usuario', 'usuario.perid=perfil.perid');
-		$this->db->where('usuario.usuemail', $email);//
-		$this->db->where('usuario.usucontrasenia', $contrasenia);
-
-		$query = $this->db->get();
-		return $query->result();
-	}
 
 
-    
     
     
 
