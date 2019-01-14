@@ -13,7 +13,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   </div>
   <div class="col-xs-12 col-md-8">
 			<h1 style="text-align: center">Bienvenido de nuevo <?= $this->session->userdata('perfil') ?></h1>
- 				<?= anchor(base_url() . 'login/logout_ci', 'Cerrar sesión') ?>
+ 				<?= anchor(base_url() . 'login/logout_ci', 'Cerrando sesión') ?>
   </div>
 </div>
 
