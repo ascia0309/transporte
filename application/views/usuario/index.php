@@ -2,6 +2,14 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
+<tr class="nav">
+<td class="nav" width="15%" align="left" valign="bottom"><a href="<?php echo base_url(); ?>menu" accesskey="P">&lt;&lt;&lt; Regresar</a></td>
+
+<!--td class="nav" width="70%" align="center" valign="bottom"><a href="index.html" target="_parent">Inicio</a></td-->
+<!--td class="nav" width="15%" align="right" valign="bottom"><a href="chap02.html" accesskey="N">Next &gt;&gt;&gt;</a></td-->
+</tr>
+</table>
+
 <h1></h1>
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" id="myTab" role="tablist">
