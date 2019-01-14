@@ -72,7 +72,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <li><a href="#fakelink">INFORMACIÓN<span class="navbar-unread"></span></a></li>
                 <li><a href="<?php echo base_url(); ?>inscripcion">INSCRIPCIÓN<span class="navbar-unread"></span></a></li>
                 <li><a href="#fakelink">PAGO AL BANCO<span class="navbar-unread"></span></a></li>
-                <li><a href="#fakelink">PROGRAMAR CITA<span class="navbar-unread"></span></a></li>
+                <li><a href="#fakelink">PROGRAMAR EXAMEN<span class="navbar-unread"></span></a></li>
                 <li class="dropdown">
 
                   
@@ -85,6 +85,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li class="divider"></li>
                     <li><a href="#">Separated link</a></li>
                   </ul>
+
+                
+               </ul-->
+               <!--a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorias <b class="caret"></b></a>
+                  <span class="dropdown-arrow"></span>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                  
                 
                </ul-->
                <form class="navbar-form navbar-right" action="#" role="search">
