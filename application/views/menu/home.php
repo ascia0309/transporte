@@ -72,7 +72,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <li><a href="#fakelink">INFORMACIÓN<span class="navbar-unread"></span></a></li>
                 <li><a href="#fakelink">INSCRIPCIÓN<span class="navbar-unread"></span></a></li>
                 <li><a href="#fakelink">PAGO AL BANCO<span class="navbar-unread"></span></a></li>
-                <li><a href="#fakelink">PROGRAMARCITA<span class="navbar-unread"></span></a></li>
+                <li><a href="#fakelink">PROGRAMAR EXAMEN<span class="navbar-unread"></span></a></li>
                 <li class="dropdown">
 
                   
