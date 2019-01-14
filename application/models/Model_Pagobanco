@@ -69,19 +69,5 @@ class Model_Login extends CI_Model
         return $query->result();
 	}
 
-	public function login_user($email, $contrasenia)
-	{
-		$query = $this->db->query("SELECT perfil.pernombre as admin, menu.mennombre as menu
-									FROM menu inner join mep on menu.menid=mep.menid 
-									INNER JOIN perfil on perfil.perid=mep.perid 
-									inner join usuario on usuario.perid=perfil.perid 
-									WHERE usuemail='$email' and usucontrasenia='$contrasenia'");
-		return $query->result();
-		if ($query->num_rows() == 1) {
-			return $query->row();
-		} else {
-			$this->session->set_flashdata('usuario_incorrecto', 'Los datos introducidos son incorrectos');
-			redirect(base_url() . 'login', 'refresh');
-		}
-	}
+    
 }
