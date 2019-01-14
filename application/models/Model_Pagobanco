@@ -46,18 +46,7 @@ class Model_Login extends CI_Model
 		}
 	}
 
-    public function uriAccess(){
-        $controller = $this->uri->segment(1);
-        $listMenu = array();
-        foreach ($this->accessMenPro() as $value) {
-            $listMenu[] = $value->mencontrolador;
-        }
-        if(in_array($controller, $listMenu)){
-            return TRUE;
-        }else{
-            return FALSE;
-        }
-    }
+    
     
 
 
